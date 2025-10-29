@@ -217,24 +217,37 @@ ol {
 }
 @media (max-width: 768px) {
   body {
-    font-size: 18px;
+    font-size: 20px; /* 기본 글씨 크게 */
+    line-height: 1.5;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 38px;
+    margin-bottom: 18px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin-bottom: 14px;
   }
 
   p {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  li, span, a, button {
     font-size: 18px;
   }
 
-  /* 필요하면 클래스별로도 조절 */
+  /* 프로필 텍스트처럼 특별히 강조하고 싶은 요소 */
   .profile-text {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 </style>
@@ -248,8 +261,8 @@ ol {
 
     <p id="okok"> 본 웹사이트는 사용자가 자유롭게 콘텐츠를 작성하고 공유할 수 있는 글쓰기 기능을 제공한다.
      <br><br><strong>글쓰기 기능</strong>
-   <br><br> 직관적인 편집 환경: 간결하고 효율적인 에디터를 통해 손쉽게 글을 작성할 수 있다
-   <br><br><strong>다양한 첨부 기능</strong>: 이미지, 링크 등 시각 자료를 추가하여 콘텐츠의 완성도를 높일 수 있다.
+   <br><br> <strong>직관적인 편집 환경</strong>: 간결하고 효율적인 에디터를 통해 손쉽게 글을 작성할 수 있다
+   <br><strong>다양한 첨부 기능</strong>: 이미지, 링크 등 시각 자료를 추가하여 콘텐츠의 완성도를 높일 수 있다.
    <br><strong>공개 범위 설정</strong>: 작성자는 글의 공개 여부를 직접 설정할 수 있으며, 필요에 따라 비공개 저장도 가능하다.
 <br><br>사용자는 자신의 생각과 경험을 체계적으로 기록하고, 다른 이용자와 소통할 수 있다.
 <br><br><br><strong>프로필 설정 기능</strong>
@@ -258,7 +271,8 @@ ol {
   <br><strong>소개글 작성</strong>: 간단한 자기소개를 추가하여 사용자의 관심사나 전문 분야를 공유할 수 있다.
    <br>개인정보 관리: 닉네임, 이메일 등 기본 정보를 손쉽게 수정할 수 있다.
 <br><br>사용자는 웹사이트 내에서 신뢰성과 개성을 동시에 표현할 수 있다.
-</p>
+<h3>그렇다면 그들은 누구인가? </p></h3>
+
 
 <!-- ✅ 바키 기사: 메인 기사로 위에 단독 배치 -->
 <div class="main-article">
